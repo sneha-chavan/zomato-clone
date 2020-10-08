@@ -1,0 +1,75 @@
+.searchbar {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  object-fit: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 420px;
+  background-color: #485461;
+  color: white;
+  background-position: center;
+  align-items: center;
+
+  text-align: center;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+}
+.zomatoLogo {
+  width: 285px;
+  margin-top: 100px;
+  /* transition: all 2s ease 0s; */
+}
+.searchbar__title {
+  font-size: 82px;
+  margin-top: 20px;
+  font-weight: 1000;
+}
+.searchbar__punchLine {
+  font-family: "Helventica" sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.punchLine__placenName {
+  font-weight: 500;
+}
+.inputBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  width: 80%;
+  max-width: 750px !important;
+  border-radius: 8px;
+}
+.input__placeAndItemSearch {
+  display: flex;
+}
+.searchbar__locationIcon {
+  color: #f57082;
+}
+.searchbar__placeNames {
+  flex: 0.3;
+  border: none;
+  color: #828282;
+  font-family: "Okra" "Helvetica" "sans-serif";
+  outline-width: 0;
+}
+.searchbar__input {
+  flex: 0.7;
+  border: none;
+  font-family: sans-serif;
+  margin-left: 10px;
+  color: #283038;
+  font-size: 14px;
+  outline-width: 0;
+}
+.searchbar__searchIcon {
+  color: #828282;
+}
